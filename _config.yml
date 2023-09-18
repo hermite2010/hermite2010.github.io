@@ -1,5 +1,12 @@
-title: Modernist theme
-description: Modernist is a theme for GitHub Pages.
-show_downloads: true
+title: "Joseph Bradley (hermite2010)"
+description: "There and Back again: A college student's tale of tutorials"
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-modernist
+email: hermite2010@gmail.com
+url: https://hermite2010.github.io
+baseurl:
+image: The internal or external link to your main blog image
+author: Joseph Bradley
+copyright: JB
+footer_description: "Sit back, relax, and watch me struggle..."
