@@ -3,7 +3,7 @@ layout: default
 title: "Datawrapping Your Way to Victory"
 author: Joseph Bradley
 description: Basic tutorial on how to use Datawrapper
-image: "/assests/images/Datawrapper Logo"
+image: "/assests/images/Datawrapper Logo.png"
 ---
 # Get Your Data Visualization Game to the Next Level with Datawrapper
 In the realm of data science, presenting insights in a visually appealing and digestible manner is crucial. It's not just about numbers; it's about telling a compelling story that resonates with your audience. This is where Datawrapper steps in, empowering data scientists to create stunning, informative graphics effortlessly.
@@ -13,7 +13,7 @@ Datawrapper Interface
 ## Getting Started
 1. Signing Up and Navigating the Interface
 
-![signing up for Datawrapper](assets/images/Screenshot 2023-10-04 112606.png)
+![signing up for Datawrapper](/assets/images/Screenshot 2023-10-04 112606.png)
 
 Getting started with Datawrapper is a breeze. Simply head to their website, sign up for an account, and log in. The clean and intuitive interface ensures you won't be lost in a sea of buttons and options.
 
