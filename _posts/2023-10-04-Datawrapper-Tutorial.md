@@ -3,7 +3,7 @@ layout: default
 title: "Datawrapping Your Way to Victory"
 author: Joseph Bradley
 description: Basic tutorial on how to use Datawrapper
-image: "https://asset.brandfetch.io/idGWUtW5Qh/idiB0nqi7-.svg"
+image: "/assests/images/Datawrapper Logo"
 ---
 # Get Your Data Visualization Game to the Next Level with Datawrapper
 In the realm of data science, presenting insights in a visually appealing and digestible manner is crucial. It's not just about numbers; it's about telling a compelling story that resonates with your audience. This is where Datawrapper steps in, empowering data scientists to create stunning, informative graphics effortlessly.
