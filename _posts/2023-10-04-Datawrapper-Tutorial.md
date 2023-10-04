@@ -43,6 +43,9 @@ Once your graphic is perfected, Datawrapper offers various export options. Wheth
 9. Sharing and Collaboration
 Collaboration is seamless with Datawrapper. Share your graphics with colleagues or embed them directly into reports or presentations. The platform also supports live updates, ensuring your visuals remain current.
 
+# Look at the graph we made!
+(I made a few changes to some errors, but it should generally look the same)
+
 <iframe title="GDP and Fertility Rate" aria-label="Scatter Plot" id="datawrapper-chart-Cr4lj" src="https://datawrapper.dwcdn.net/Cr4lj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
