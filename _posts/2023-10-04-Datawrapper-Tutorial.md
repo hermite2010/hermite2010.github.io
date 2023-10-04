@@ -12,6 +12,9 @@ Datawrapper Interface
 
 ## Getting Started
 1. Signing Up and Navigating the Interface
+
+![signing up for Datawrapper](assets/images/Screenshot 2023-10-04 112606.png)
+
 Getting started with Datawrapper is a breeze. Simply head to their website, sign up for an account, and log in. The clean and intuitive interface ensures you won't be lost in a sea of buttons and options.
 
 2. Uploading Your Data
