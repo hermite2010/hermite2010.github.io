@@ -22,33 +22,33 @@ Finding and cleaning this kind of data is a real challenge and it took me many h
 <a name="Data"></a>
 As mentioned before, each university is required by law to report the crimes that happen on their campuses. Each university publishes the most recent report somewhere on their respective websites. Here are the current (November 2023) urls for each of the University PDFs :
 
-BYU https://police.byu.edu/2023-asr-provo  (page 9)
+[BYU](https://police.byu.edu/2023-asr-provo)  (page 9)
 
-BU https://www.baylor.edu/risk/doc.php/399779.pdf (page 12)
+[BU](https://www.baylor.edu/risk/doc.php/399779.pdf) (page 12)
 
-UC https://www.uc.edu/content/dam/refresh/publicsafety-62/docs/ucpd/2023-annual-security-report.pdf (page 34)
+[UC](https://www.uc.edu/content/dam/refresh/publicsafety-62/docs/ucpd/2023-annual-security-report.pdf) (page 34)
 
-UH http://m2s-conf.uh.edu/police/records-reports/annualreport/2023-uh-annual-security-and-fire-safety-report.pdf (page 39)
+[UH](http://m2s-conf.uh.edu/police/records-reports/annualreport/2023-uh-annual-security-and-fire-safety-report.pdf) (page 39)
 
-ISU https://www.police.iastate.edu/wp-content/uploads/2023/09/2022-Report-Final.pdf (page 6)
+[ISU](https://www.police.iastate.edu/wp-content/uploads/2023/09/2022-Report-Final.pdf) (page 6)
 
-KU https://civilrights.ku.edu/sites/civilrights/files/documents/Reports/University%20of%20Kansas%20Annual%20Security%20and%20Fire%20Safety%20Report-2023-KLETC.pdf (page 60)
+[KU](https://civilrights.ku.edu/sites/civilrights/files/documents/Reports/University%20of%20Kansas%20Annual%20Security%20and%20Fire%20Safety%20Report-2023-KLETC.pdf) (page 60)
 
-KSU https://www.k-state.edu/report/clery/reports/KSUCleryReport2023.pdf (page 13)
+[KSU](https://www.k-state.edu/report/clery/reports/KSUCleryReport2023.pdf) (page 13)
 
-OSU https://safety.okstate.edu/police/documents/annual-security-reports/2023-annual-safety-report.pdf (page 37)
+[OSU](https://safety.okstate.edu/police/documents/annual-security-reports/2023-annual-safety-report.pdf) (page 37)
 
-OU https://ou.edu/content/dam/OUPD/documents/safety.pdf (page 52)
+[OU](https://ou.edu/content/dam/OUPD/documents/safety.pdf) (page 52)
 
-TCU https://police.tcu.edu/wp-content/uploads/2023/09/TCU-Annual-Security-Report-Fire-Safety-Report_2023.v1.pdf (page 80)
+[TCU](https://police.tcu.edu/wp-content/uploads/2023/09/TCU-Annual-Security-Report-Fire-Safety-Report_2023.v1.pdf) (page 80)
 
-TTU https://www.depts.ttu.edu/clery/reports/2023LubbockASRfinal.pdf (page 107)
+[TTU](https://www.depts.ttu.edu/clery/reports/2023LubbockASRfinal.pdf) (page 107)
 
-UCF https://police.ucf.edu/sites/default/files/2023%20Annual%20Security%20%26%20Fire%20Safety%20Report.pdf (page 78)
+[UCF](https://police.ucf.edu/sites/default/files/2023%20Annual%20Security%20%26%20Fire%20Safety%20Report.pdf) (page 78)
 
-UTA https://compliance.utexas.edu/sites/default/files/documents/2023-annual-security-fire-safety-report_0.pdf (page 80)
+[UTA](https://compliance.utexas.edu/sites/default/files/documents/2023-annual-security-fire-safety-report_0.pdf) (page 80)
 
-WVU https://police.wvu.edu/files/d/a1a0a6fe-444e-4353-8e92-7dcbeb00cd27/2023-annual-security-and-fire-safety-report-with-appendix.pdf (page 36)
+[WVU](https://police.wvu.edu/files/d/a1a0a6fe-444e-4353-8e92-7dcbeb00cd27/2023-annual-security-and-fire-safety-report-with-appendix.pdf) (page 36)
 
 ## The Problems
 While initally it might sound nice that each university has all their data in a publically available PDF, there are several problems with this. 
