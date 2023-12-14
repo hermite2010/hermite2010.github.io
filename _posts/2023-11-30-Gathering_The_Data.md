@@ -30,20 +30,7 @@ It is important that the data used in data science is ethically obtained and eth
 <a name="Data"></a>
 As mentioned before, each university is required by law to report the crimes that happen on their campuses. Each university publishes the most recent report somewhere on their respective websites. Here are the current (November 2023) urls for each of the University PDFs :
 
-[BYU](https://police.byu.edu/2023-asr-provo) (page 9)
-[BU](https://www.baylor.edu/risk/doc.php/399779.pdf) (page 12)
-[UC](https://www.uc.edu/content/dam/refresh/publicsafety-62/docs/ucpd/2023-annual-security-report.pdf) (page 34)
-[UH](http://m2s-conf.uh.edu/police/records-reports/annualreport/2023-uh-annual-security-and-fire-safety-report.pdf) (page 39)
-[ISU](https://www.police.iastate.edu/wp-content/uploads/2023/09/2022-Report-Final.pdf) (page 6)
-[KU](https://civilrights.ku.edu/sites/civilrights/files/documents/Reports/University%20of%20Kansas%20Annual%20Security%20and%20Fire%20Safety%20Report-2023-KLETC.pdf) (page 60)
-[KSU](https://www.k-state.edu/report/clery/reports/KSUCleryReport2023.pdf) (page 13)
-[OSU](https://safety.okstate.edu/police/documents/annual-security-reports/2023-annual-safety-report.pdf) (page 37)
-[OU](https://ou.edu/content/dam/OUPD/documents/safety.pdf) (page 52)
-[TCU](https://police.tcu.edu/wp-content/uploads/2023/09/TCU-Annual-Security-Report-Fire-Safety-Report_2023.v1.pdf) (page 80)
-[TTU](https://www.depts.ttu.edu/clery/reports/2023LubbockASRfinal.pdf) (page 107)
-[UCF](https://police.ucf.edu/sites/default/files/2023%20Annual%20Security%20%26%20Fire%20Safety%20Report.pdf) (page 78)
-[UTA](https://compliance.utexas.edu/sites/default/files/documents/2023-annual-security-fire-safety-report_0.pdf) (page 80)
-[WVU](https://police.wvu.edu/files/d/a1a0a6fe-444e-4353-8e92-7dcbeb00cd27/2023-annual-security-and-fire-safety-report-with-appendix.pdf) (page 36)
+[BYU](https://police.byu.edu/2023-asr-provo)(page 9), [BU](https://www.baylor.edu/risk/doc.php/399779.pdf)(page 12), [UC](https://www.uc.edu/content/dam/refresh/publicsafety-62/docs/ucpd/2023-annual-security-report.pdf)(page 34), [UH](http://m2s-conf.uh.edu/police/records-reports/annualreport/2023-uh-annual-security-and-fire-safety-report.pdf)(page 39), [ISU](https://www.police.iastate.edu/wp-content/uploads/2023/09/2022-Report-Final.pdf)(page 6), [KU](https://civilrights.ku.edu/sites/civilrights/files/documents/Reports/University%20of%20Kansas%20Annual%20Security%20and%20Fire%20Safety%20Report-2023-KLETC.pdf)(page 60), [KSU](https://www.k-state.edu/report/clery/reports/KSUCleryReport2023.pdf)(page 13), [OSU](https://safety.okstate.edu/police/documents/annual-security-reports/2023-annual-safety-report.pdf)(page 37), [OU](https://ou.edu/content/dam/OUPD/documents/safety.pdf)(page 52), [TCU](https://police.tcu.edu/wp-content/uploads/2023/09/TCU-Annual-Security-Report-Fire-Safety-Report_2023.v1.pdf)(page 80), [TTU](https://www.depts.ttu.edu/clery/reports/2023LubbockASRfinal.pdf)(page 107), [UCF](https://police.ucf.edu/sites/default/files/2023%20Annual%20Security%20%26%20Fire%20Safety%20Report.pdf)(page 78), [UTA](https://compliance.utexas.edu/sites/default/files/documents/2023-annual-security-fire-safety-report_0.pdf)(page 80), [WVU](https://police.wvu.edu/files/d/a1a0a6fe-444e-4353-8e92-7dcbeb00cd27/2023-annual-security-and-fire-safety-report-with-appendix.pdf)(page 36)
 
 ## The Problems
 While initally it might sound nice that each university has all their data in a publically available PDF, there are several problems with this. 
@@ -55,12 +42,7 @@ Lastly, if we really want to compare the schools to one another, we need to comb
 <a name="Packages"></a>
 Here I will list some of the Python packages that I tried to use, but that ultimately did not work in getting the data from the pdfs. 
 
-PDFMiner
-PyPDF2
-Tabula
-PyMuPDF
-Tika
-Textract
+PDFMiner, PyPDF2, Tabula, PyMuPDF, Tika, and Textract.
 
 As I mentioned, none of these worked for me. They either could not get all of the data, or they just failed to work at all. Thankfully, I did find a package that worked wonders, and nobody online was talking about it at all: Camelot
 
@@ -123,7 +105,6 @@ BYU_sexOff = BYU_sexOff.reset_index(drop=True)
 ```
 This code gave us this output:
 |    | Offense           | School   |   2020 |   2021 |   2022 |
-|---:|:------------------|:---------|-------:|-------:|-------:|
 |  0 | Rape              | BYU      |      4 |      7 |      6 |
 |  1 | Fondling          | BYU      |     10 |     13 |     17 |
 |  2 | Incest            | BYU      |      0 |      0 |      0 |
@@ -134,7 +115,6 @@ I also felt that looking at the data in a few different ways was appropriate. I 
 
 Here is a snippit of what the final data set looks like:
 |    | School   |   Year |   Dating Violence |   Domestic Violence |   Fondling |   Incest |   Rape |   Stalking |   Statutory Rape | Religious   |   Potential Rape Total |   Potential Fondling Total |   Enrollment |   Rape Per 10k |   Fondling Per 10k |   Stalking Per 10k |   Dating Violence Per 10k |   Domestic Violence Per 10k |   Potential Rape Per 10k |   Potential Fondling Per 10k |
-|---:|:---------|-------:|------------------:|--------------------:|-----------:|---------:|-------:|-----------:|-----------------:|:------------|-----------------------:|---------------------------:|-------------:|---------------:|-------------------:|-------------------:|--------------------------:|----------------------------:|-------------------------:|-----------------------------:|
 |  0 | BU       |   2020 |                 4 |                   7 |         13 |        0 |     13 |         17 |                0 | True        |                     65 |                         33 |        19297 |        6.7368  |            6.7368  |            8.80966 |                   2.07286 |                    3.62751  |                  33.684  |                     17.1011  |
 |  1 | BU       |   2021 |                 5 |                   8 |         10 |        0 |     20 |         23 |                0 | True        |                    100 |                         25 |        20626 |        9.6965  |            4.84825 |           11.151   |                   2.42412 |                    3.8786   |                  48.4825 |                     12.1206  |
 |  2 | BU       |   2022 |                 0 |                  13 |          8 |        0 |     22 |         40 |                0 | True        |                    110 |                         20 |        20709 |       10.6234  |            3.86305 |           19.3153  |                   0       |                    6.27746  |                  53.117  |                      9.65764 |
