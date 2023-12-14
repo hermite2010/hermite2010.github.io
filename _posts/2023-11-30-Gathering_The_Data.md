@@ -104,22 +104,31 @@ BYU_sexOff = pd.concat([BYU_sexOff,BYU_VAWA])
 BYU_sexOff = BYU_sexOff.reset_index(drop=True)
 ```
 This code gave us this output:
+
+
 |    | Offense           | School   |   2020 |   2021 |   2022 |
+|---:|:------------------|:---------|-------:|-------:|-------:|
 |  0 | Rape              | BYU      |      4 |      7 |      6 |
 |  1 | Fondling          | BYU      |     10 |     13 |     17 |
 |  2 | Incest            | BYU      |      0 |      0 |      0 |
 |  3 | Statutory Rape    | BYU      |      0 |      0 |      0 |
 |  4 | Domestic Violence | BYU      |      0 |      2 |      1 |
 
+
 I also felt that looking at the data in a few different ways was appropriate. I sought to account for each schools respective campus enrollment to see the crime count per capita. I also tried to account for the unreported crimes. While each publication of the campus crimes comes with a statment about hom many crimes they think have gone unreported, according to the [Rape, Abuse & Incest National Network](https://www.rainn.org/statistics/criminal-justice-system), only about 20-32% of the rapes are reported in college age student. And about 60% of all sexual assaults don't get reported. I wanted to try to visualise what the numbers would look like if what was reported was only a percentage of the real numbers.
 
 Here is a snippit of what the final data set looks like:
+
+
 |    | School   |   Year |   Dating Violence |   Domestic Violence |   Fondling |   Incest |   Rape |   Stalking |   Statutory Rape | Religious   |   Potential Rape Total |   Potential Fondling Total |   Enrollment |   Rape Per 10k |   Fondling Per 10k |   Stalking Per 10k |   Dating Violence Per 10k |   Domestic Violence Per 10k |   Potential Rape Per 10k |   Potential Fondling Per 10k |
+|---:|:---------|-------:|------------------:|--------------------:|-----------:|---------:|-------:|-----------:|-----------------:|:------------|-----------------------:|---------------------------:|-------------:|---------------:|-------------------:|-------------------:|--------------------------:|----------------------------:|-------------------------:|-----------------------------:|
 |  0 | BU       |   2020 |                 4 |                   7 |         13 |        0 |     13 |         17 |                0 | True        |                     65 |                         33 |        19297 |        6.7368  |            6.7368  |            8.80966 |                   2.07286 |                    3.62751  |                  33.684  |                     17.1011  |
 |  1 | BU       |   2021 |                 5 |                   8 |         10 |        0 |     20 |         23 |                0 | True        |                    100 |                         25 |        20626 |        9.6965  |            4.84825 |           11.151   |                   2.42412 |                    3.8786   |                  48.4825 |                     12.1206  |
 |  2 | BU       |   2022 |                 0 |                  13 |          8 |        0 |     22 |         40 |                0 | True        |                    110 |                         20 |        20709 |       10.6234  |            3.86305 |           19.3153  |                   0       |                    6.27746  |                  53.117  |                      9.65764 |
 |  3 | BYU      |   2020 |                 5 |                   0 |         10 |        0 |      4 |         14 |                0 | True        |                     20 |                         25 |        36324 |        1.1012  |            2.753   |            3.8542  |                   1.3765  |                    0        |                   5.506  |                      6.8825  |
 |  4 | BYU      |   2021 |                 5 |                   2 |         13 |        0 |      7 |          6 |                0 | True        |                     35 |                         33 |        34737 |        2.01514 |            3.74241 |            1.72726 |                   1.43939 |                    0.575755 |                  10.0757 |                      9.49996 |
+
+
 
 # Conclusion
 <a name="Conclusion"></a>
